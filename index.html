@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css
+">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header1__title">Hussein Elmasri</h1>
+    <nav class="header__nav-list">
+      <ul class="nav-list">
+        <li><a class="nav-list__link nav-list__link--active" href="#">Home</a></li>
+        <li><a class="nav-list__link" href="about">About Me</a></li>
+        <li><a class="nav-list__link" href="portfolio">Portfolio</a></li>
+        <li><a class="nav-list__link" href="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="about" id="about">
+      <h2 class="about__title">About Me</h2>
+      <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, aspernatur?</p>
+      <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, libero?</p>
+    </section>
+    <section id="portfolio">
+      <h2 class="portfolio__title">My Portfolio</h2>
+      <div class="portfolio__cards">
+        <div class="project">
+          <img class="project__image" src="portfolio-1.jpg" alt="">
+          <h3 class="project__title">Lorem, ipsum dolor</h3>
+          <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui earum dolores
+            sapiente voluptate nisi at aut est et inventore consequuntur.</p>
+          <button class="project__button">View Project</button>
+        </div>
+        <div class="project">
+          <img class="project__image" src="portfolio-2.jpg" alt="">
+          <h3 class="project__title">Lorem, ipsum dolor</h3>
+          <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eos nam animi
+            voluptatem atque, tempora cumque asperiores non magnam quam..</p>
+          <button class="project__button">View Project</button>
+        </div>
+        <div class="project">
+          <img class="project__image" src="portfolio-3.jpg" alt="">
+          <h3 class="project__title">Lorem, ipsum dolor</h3>
+          <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio,
+            necessitatibus veritatis ducimus asperiores facilis quis! Distinctio laborum officia minus?</p>
+          <button class="project__button">View Project</button>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact__title">Contact Me</h2>
+      <form class="contact__form">
+        <label class="contact__label" for="name">Name:</label>
+        <input class="contact__input" type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label class="contact__label" for="email">Email:</label>
+        <input class="contact__input" type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label class="contact__label" for="message">Message:</label>
+        <textarea class="contact__textarea" name="message" id="message" rows="4"></textarea>
+        <br>
+        <br>
+        <input class="contact__submit" type="submit" value="send message">
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; Hussein Elmasri Portfolio</p>
+  </footer>
+</body>
+
+</html>
